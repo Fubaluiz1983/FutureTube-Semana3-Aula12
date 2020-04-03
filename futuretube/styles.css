@@ -20,11 +20,31 @@ h2{
     padding: 6px;
 }
 
-#menuflex{
+#headerBase{
     display: flex;
     align-self: center;
+}
 
 
+#busca{
+    display: flex;
+    justify-items: right;
+    align-items: center;
+    margin-left:  980px;
+}
+
+ul#nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color:white;
+    width: 200px;
+    height: 800px;
+    border-right: 1px solid black;
+}
+
+hr{
+color:black;
 }
 
 main{
@@ -33,7 +53,7 @@ main{
     display: grid;
 }
 
-.galeria{
+.container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -41,7 +61,7 @@ main{
     padding: 10px;
 }
 
-#galeriaItem{
+#galeria{
     display: grid;
     border: 1px solid green;
     grid-column: 5px;
